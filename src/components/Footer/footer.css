@@ -190,6 +190,42 @@
   color: var(--whiteColor);
 }
 
+@media screen and (min-width: 840px) {
+  .footer {
+    padding: 5rem 0;
+  }
+  .footer .secContent .footerCard {
+    flex-direction: row;
+  }
+  .footer .secContent .footerCard .footerLinks {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .footer .secContent .footerCard {
+    padding: 3rem 1rem;
+  }
+  .footer .secContent .footerCard .footerIntro .footerParagraph {
+    font-size: 15px;
+    color: var(--textColor);
+  }
+  .footer .secContent .footerCard .footerIntro .footerSocials {
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  .footer .secContent .footerCard .footerIntro .footerSocials .icon {
+    color: var(--textColor);
+    font-size: 25px;
+  }
+  .footer .secContent .footerCard .footerIntro .footerSocials .icon:hover {
+    color: var(--PrimaryColor);
+  }
+  .footer .secContent .footerCard .footerLinks .linkGroup .footerList {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+}
 @media screen and (min-width: 660px) {
   .footer .secContent .contactDiv {
     flex-direction: row;
